@@ -17,7 +17,7 @@ class  TestJUnit1{
 	public void testgetTitular() {
 		//Andrés Huertas 0633 2076 82 1025372623  CUENTA VALIDA PARA PROBAR: TITULAR,ENTIDAD,OFICINA,DIGITOSCONTROL,NUMERODECUENTA
 	    CuentaBancaria cuenta1=new CuentaBancaria("Andrés Huertas","0633" ,"2076" ,"82","1025372623");
-		assertEquals("Andrés Huertas",cuenta1.getTitular());
+		assertEquals("Andrés Murcia",cuenta1.getTitular());
 		
 	}
 	
